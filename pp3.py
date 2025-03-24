@@ -5,10 +5,10 @@ if weekday == "SA":
     noSaturdays = 53
 
 elif weekday == "FR" and leapyear == "y":
-noSaturdays = 53
+ noSaturdays = 53
 
 else:
-noSaturdays = 52
+ noSaturdays = 52
 
 print("There are",noSaturdays,"Saturdays this year.")
 
