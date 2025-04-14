@@ -1,13 +1,14 @@
 temps = []
 for temp in range(0,5):
 
-    temp = int(input("Enter temperature"))
+    temp = int(input("Enter temperature: "))
 
     #Validate between -20 and 50
     while temp < -20 or temp > 50:
         print("Error, temp must be between -20 and 50")
-        temp = int(input("Enter temperature"))
+        temp = int(input("Enter temperature: "))
 
     temps.append(temp)
-    
+
 print(temps)
+for temps in
