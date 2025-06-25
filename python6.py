@@ -1,0 +1,5 @@
+English = input("what was your English score")
+Maths =input("what was your math score") 
+Computing =input("what was your computing score")
+Art =input("what was your art score")
+print ("English Maths Computing Art")
